@@ -352,7 +352,7 @@ export const SheikhProfile = () => {
                 rel="noopener noreferrer"
                 className="profile-btn-secondary"
               >
-                صفحة فيسبوك (+13K)
+                صفحة فيسبوك (+410K)
               </motion.a>
             )}
 

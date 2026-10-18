@@ -31,7 +31,7 @@ export const sheikhConfig: SheikhConfig = {
   customFields: [
     { label: "المؤسسة العلمية", value: "جامعة الأزهر الشريف - Cairo" },
     { label: "المنهج العلمي", value: "الوسطية والاعتدال الأزهري وتأصيل قضايا العصر" },
-    { label: "متابعو فيسبوك", value: "+13,000 متابع" },
+    { label: "متابعو فيسبوك", value: "+410,000 متابع" },
     { label: "مشتركو يوتيوب", value: "+160,000 مشترك" }
   ],
 
@@ -46,7 +46,7 @@ export const sheikhConfig: SheikhConfig = {
   // منصات التواصل الاجتماعي الرسمية
   social: {
     youtube: "https://www.youtube.com/@alaaeldinebrahim0",
-    facebook: "https://www.facebook.com/laabrahym.26657/?locale=ar_AR",
+    facebook: "https://www.facebook.com/share/1GyQ4cTrnT/",
     instagram: "https://www.instagram.com/alaa_ebraheim25/",
     email: "mailto:contact@sheikh-alaa-ibrahim.com"
   },
