@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://yt3.googleusercontent.com/hLJQIvvzfEzchI3RAzpWOLy9e3WFC6zwEraJ7hwJn4XYiMCXvIROQVgh7i0MCRE8ktlF_uaE4hI=s800-c-k-c0x00ffffff-no-rj" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cairo:wght@300;400;500;600;700;800;900&family=Scheherazade+New:wght@400;600;700&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <title>الشيخ علاء إبراهيم - باحث وداعية إسلامي | خريج جامعة الأزهر الشريف</title>
+    <meta name="description" content="الموقع العلمي الرسمي للشيخ علاء إبراهيم - باحث وداعية إسلامي من خريجي جامعة الأزهر الشريف. سلاسل علمية، فتاوى معاصرة، وتأملات إيمانية وفكرية." />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      // Apply theme before render to prevent flash
+      if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+    </script>
+  </body>
+</html>
