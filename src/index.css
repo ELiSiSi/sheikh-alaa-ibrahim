@@ -407,6 +407,7 @@
   }
   .profile-hero-image {
     @apply w-full h-full object-cover rounded-full border-4;
+    object-position: 50% 38%;
     border-color: var(--card);
   }
   .profile-hero-image-badge {

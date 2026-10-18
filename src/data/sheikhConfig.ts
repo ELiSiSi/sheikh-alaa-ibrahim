@@ -13,7 +13,7 @@ export const sheikhConfig: SheikhConfig = {
 
   // الصور
   logo: "",
-  heroImage: "https://yt3.googleusercontent.com/hLJQIvvzfEzchI3RAzpWOLy9e3WFC6zwEraJ7hwJn4XYiMCXvIROQVgh7i0MCRE8ktlF_uaE4hI=s800-c-k-c0x00ffffff-no-rj",
+  heroImage: "/channels4_profile.jpg",
 
   // معلومات تفصيلية
   yearsInField: 12,
@@ -210,6 +210,6 @@ export const sheikhConfig: SheikhConfig = {
       "سلاسل علمية أزهرية",
       "قضايا معاصرة"
     ],
-    defaultImage: "https://yt3.googleusercontent.com/hLJQIvvzfEzchI3RAzpWOLy9e3WFC6zwEraJ7hwJn4XYiMCXvIROQVgh7i0MCRE8ktlF_uaE4hI=s800-c-k-c0x00ffffff-no-rj"
+    defaultImage: "/channels4_profile.jpg"
   }
 };

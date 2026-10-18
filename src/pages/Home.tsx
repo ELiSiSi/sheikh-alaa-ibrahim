@@ -293,7 +293,8 @@ const Hero = () => (
                 <img
                   src={sheikhConfig.heroImage || sheikhConfig.seo.defaultImage}
                   alt={sheikhConfig.name}
-                  className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-700"
+                  style={{ objectPosition: '50% 38%' }}
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                 />
               </div>
             </div>

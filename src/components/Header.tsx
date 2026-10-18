@@ -361,6 +361,7 @@ const Navbar = () => {
                 <img
                   src={sheikhConfig.heroImage}
                   alt={sheikhConfig.name}
+                  style={{ objectPosition: '50% 38%' }}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform"
                 />
               </div>
